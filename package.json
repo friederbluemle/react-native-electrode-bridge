@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/electrode-io/react-native-electrode-bridge"
   },
+  "scripts": {
+    "lint": "eslint ."
+  },
   "main": "js/ElectrodeBridge.js",
   "dependencies": {
     "events": "^1.1.1",
@@ -14,7 +17,9 @@
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^1.1.0",
     "babel-jest": "^24.8.0",
+    "eslint": "^7.0.0",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.55.0",
     "react": "16.8.3",
