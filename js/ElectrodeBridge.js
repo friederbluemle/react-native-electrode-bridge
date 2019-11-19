@@ -19,7 +19,7 @@ var EventEmitter = require('events')
 //   "data": "a string"
 // }
 //
-// "type", "id"" and "name are" mandatory. They'll be
+// "type", "id" and "name" are mandatory. They'll be
 // present in any message
 //
 // "data" is optional. It is the payload associated
